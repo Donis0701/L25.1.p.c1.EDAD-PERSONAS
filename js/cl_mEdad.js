@@ -1,5 +1,5 @@
-export default class cl_Edad{
-    constructor(edad){
+export default class cl_mEdad{
+    constructor({edad}){
         this.edad = edad;
     }
     set edad(e){

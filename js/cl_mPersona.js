@@ -1,4 +1,6 @@
-export default class cl_Persona{
+
+import cl_mEdad from "./cl_mEdad.js";
+export default class cl_mPersona{
     constructor(){
         this.acumEdad = 0;
     }

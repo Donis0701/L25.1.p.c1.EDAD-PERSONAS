@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div id="salida"></div>
-  <script src="js/principal.js" type ="module"></script>  
+<body> 
+  <section id="edadForm">
+    <h3>Registro de edad</h3>
+    <input type="text" id="edadForm_inEdad" placeholder="Ingrese su edad">
+    <button id="edadForm_btProcesar">Procesar</button>
+  </section>
+  <section id="mainForm">
+    <h3>Edad promedio</h3>
+    <label id="mainFormlblpromedioEdad"></label>
+  </section>
 </body>
+<script type="module">
+  import cl_principal from "./js/principal.js";
+  new cl_principal()
+</script>
 </html>
